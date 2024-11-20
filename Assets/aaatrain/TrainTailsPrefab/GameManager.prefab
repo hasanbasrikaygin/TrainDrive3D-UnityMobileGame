@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6034890021638041151
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4771107939519015603}
+  - component: {fileID: 5973358657688405880}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4771107939519015603
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6034890021638041151}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -140.02328, y: 69.044754, z: 126.66298}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5973358657688405880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6034890021638041151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 641360d47bda6f54db64c6003ec94ad1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stationChef: {fileID: 0}
+  passengerController: {fileID: 0}
+  stationPoints: {fileID: 0}
+  foodFactory: {fileID: 0}
+  mergeWagonPool: {fileID: 0}
+  mergeCanvas: {fileID: 0}
+  wagonFoodFactory: {fileID: 0}
+  train: {fileID: 0}
+  gameOverCanvas: {fileID: 0}
+  reverseTailPanel: {fileID: 0}
+  wagonCountUi: {fileID: 0}
+  freshStart: {fileID: 0}
+  reverseTail: {fileID: 0}
+  next: {fileID: 0}
+  scoreManager: {fileID: 0}
+  uiAnimationManager: {fileID: 0}
+  goldValues: {fileID: 11400000, guid: 4c378294369f31847af6651a52e62172, type: 2}

@@ -1,0 +1,214 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &948993308076648172
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3396958407496069933}
+  - component: {fileID: 3093344768953422298}
+  m_Layer: 0
+  m_Name: TrainFollower
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3396958407496069933
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 948993308076648172}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4192976369003280053}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3093344768953422298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 948993308076648172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0efdda030e487184cb30e3a5f18f12e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  train: {fileID: 712722649871748958}
+  stationChef: {fileID: 0}
+--- !u!1 &1566531754920535253
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 712722649871748958}
+  - component: {fileID: 3331233006776646939}
+  - component: {fileID: 683570416282101794}
+  m_Layer: 0
+  m_Name: TrainHead
+  m_TagString: Train
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &712722649871748958
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1566531754920535253}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4192976369003280053}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3331233006776646939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1566531754920535253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e5b1fb5e1767884bacfa86b2f14921c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 10
+  bodyFollowSpeed: 10
+  turnSpeed: 300
+  bodyDistance: 3
+  positionRecordInterval: 0.2
+  positions: []
+  bodyParts: []
+  isLeftTrain: 1
+  animator: {fileID: 0}
+  wingsAnimator: {fileID: 0}
+  rb: {fileID: 0}
+  trainTails:
+  - {fileID: 1499724024276556465, guid: a7828a144fcb1984d9b046bf1b876822, type: 3}
+  - {fileID: 6134171903494006508, guid: befac304602d49b4488596fc500891ab, type: 3}
+  - {fileID: 6794468623190135814, guid: be9a120c28b191c40b2287807fbd02cf, type: 3}
+  - {fileID: 1499724024276556465, guid: a7828a144fcb1984d9b046bf1b876822, type: 3}
+  - {fileID: 4908924067750845810, guid: adfbcd2b30fa9be4a80cdcd8e96e91d0, type: 3}
+  - {fileID: 4047479246518046280, guid: e697a76656fb7364098a86ff5305348b, type: 3}
+  - {fileID: 2606169739906537247, guid: f26910c83032c8d47b387f3415dbf8cb, type: 3}
+  - {fileID: 6023118030667810024, guid: ccb3d15ef9b37d347bc48d773628fcf8, type: 3}
+  - {fileID: 4047479246518046280, guid: e697a76656fb7364098a86ff5305348b, type: 3}
+  - {fileID: 2056220471339584554, guid: 7bc8fae37d68e0d4ea1746bc599093ee, type: 3}
+  - {fileID: 951820780585592440, guid: 7d7955cf4543d374ebe390dee0ca845f, type: 3}
+  - {fileID: 2427288212534534174, guid: 236528ff6ec8bed4ca59dc5b45fb4882, type: 3}
+  - {fileID: 2645637488010155759, guid: 074b00384eb6fbb4bb14c8cc8832ffa6, type: 3}
+  - {fileID: 4677752331706367231, guid: e5bb72d52bda53240919d16a160f49db, type: 3}
+  - {fileID: 6509765432430911501, guid: 93ecb9efe36cccd4792ca5af3a8371f4, type: 3}
+  wings: {fileID: 0}
+  bodyPrefab: {fileID: 0}
+  cinemachineState: {fileID: 0}
+  rewindRecordInterval: 1
+--- !u!54 &683570416282101794
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1566531754920535253}
+  serializedVersion: 4
+  m_Mass: 20
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 72
+  m_CollisionDetection: 0
+--- !u!1 &6783871368805636146
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4192976369003280053}
+  - component: {fileID: 2731044267734337804}
+  m_Layer: 0
+  m_Name: Train
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4192976369003280053
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6783871368805636146}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3396958407496069933}
+  - {fileID: 712722649871748958}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2731044267734337804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6783871368805636146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a6c189bcc5522d438e4624f3cb3759e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentObj: {fileID: 1566531754920535253}
+  trainList:
+  - {fileID: 1493086853897795043, guid: d5e5e7a6b5016f247b6042c0b0c76e82, type: 3}
+  - {fileID: 4678543758070704621, guid: 14ae7f6552bf6744f8c0b1c25ea9e879, type: 3}
+  - {fileID: 8277275250606530103, guid: bcc87be3e03a70d419b8caae613d912b, type: 3}
+  - {fileID: 7556996217392284025, guid: bcfbe020c9474da4992575b66d421f16, type: 3}
+  - {fileID: 6413704113289758360, guid: f5008e730d9a5fe46b14da4a8cdaa98a, type: 3}
+  - {fileID: 1715844649539387391, guid: dde668c221227ec4b81fec54512850b1, type: 3}
+  - {fileID: 1648096419430611506, guid: e4fc9cdd624c4364d8af4a95d8d5b36d, type: 3}
+  - {fileID: 3221578816153835602, guid: acafab7673910b64c9853d5cc22d8a1b, type: 3}
+  - {fileID: 3914563441875580734, guid: a8cda11204fccf342912927252166dfb, type: 3}
+  - {fileID: 7389729910206328494, guid: 8d0efc72c30180a4ab868c23622ff9dd, type: 3}
+  - {fileID: 5593622817218577999, guid: 2abcf028cf7fea24d85723f7d023a152, type: 3}
+  - {fileID: 5651595553612098068, guid: 5714f87ef03f744419e3062651946051, type: 3}
+  - {fileID: 4355213094423520492, guid: d302229b2d480774c8c651f11a165bae, type: 3}
+  - {fileID: 4759542613171374460, guid: d70c5ece6ed3e7e40a78511b18eec9c9, type: 3}
+  - {fileID: 545826489672125574, guid: 68fae69c67d2000469b63f00d84c6507, type: 3}
