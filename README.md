@@ -101,5 +101,19 @@
 - **LinkedIn:** https://www.linkedin.com/in/hasanbasrikaygin/
 
 ---
+## 📦 Kullanılan Assetler
+
+- [Asset 1 - Train Pack] https://kenney.nl/assets/train-kit
+- [Asset 2 - Ui Pack ] https://assetstore.unity.com Unruly Games
+- [Asset 3 - Space Pack] https://kenney.nl/assets/space-kit
+- [Asset 3 - Coin Particle Effect Pack] https://assetstore.unity.com VFXmania
+- [Asset 3 - Ui Pack 2] https://assetstore.unity.com Marya_Belevich
+- [Asset 3 - Ui Animation] https://assetstore.unity.com LeanTween
+- [Asset 3 - Smoke Particle Effect] https://assetstore.unity.com Mena
+- [Asset 3 - Skybox Pack]  https://assetstore.unity.com LaFinca
+- [Asset 3 - Train Pack 2] https://assetstore.unity.com Palmov Island
+
+
+
 
 **Not:** Oyun aktif geliştirme sürecindedir ve yeni özellikler eklenmeye devam etmektedir.
